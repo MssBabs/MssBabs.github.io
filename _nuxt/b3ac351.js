@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{352:function(t,n,o){"use strict";o.r(n);var e=o(10),w=o(351);e.default.use(w.a,{shortname:"https-mssbabs-github-io"})}}]);
