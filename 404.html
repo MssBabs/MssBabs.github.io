@@ -11,7 +11,8 @@
     // https://nuxtjs.org/docs/2.x/internals-glossary/internals-generator#hooks
     if(window.location.pathname.includes("/post")){
         console.log(window.location.pathname)
-        window.location.href = '/post/#!' + window.location.pathname.replace('/post/', '')
+        stop()
+        window.location.href = '/post/' + window.location.pathname.replace('/post/', '')
     }
   </script>
 </html>
